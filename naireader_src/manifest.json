@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Manga translation with OCR and DeepL",
+  "version": "1.0",
+  "description": "Detects image in clipboard and opens popup of translated version",
+  "permissions": ["clipboardRead", "downloads"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
